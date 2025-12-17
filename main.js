@@ -22,7 +22,7 @@ addBtn.addEventListener("click", function () {
   showNote.innerHTML = "";
   for (let i = 0; i < notes.length; i++) {
     const li = document.createElement("li");
-    li.innerHTML = `${notes[i]} <button data-index="">x</button>`;
+    li.innerHTML = `${notes[i]} <button data-index="${i}">x</button>`;
     showNote.appendChild(li);
   }
 });
