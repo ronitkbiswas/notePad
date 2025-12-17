@@ -1,0 +1,53 @@
+#noteInput {
+  height: 100px;
+  width: 400px;
+  font-size: 14px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  box-shadow: 2px 2px 40px 4px rgb(68, 242, 65);
+}
+#noteInput:focus {
+  height: 100px;
+  width: 400px;
+  font-size: 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  box-shadow: 2px 2px 40px 4px rgb(152, 152, 152);
+  outline: none;
+  /* border: none; */
+}
+#addBtn {
+  width: 200px;
+  padding: 8px 0;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+
+  background: #ffffff;
+  color: #111;
+
+  border: 2px solid #111;
+  border-radius: 4px;
+
+  cursor: pointer;
+
+  transition: background 0.2s ease, color 0.2s ease, transform 0.1s ease,
+    box-shadow 0.2s ease;
+}
+/* hover */
+#addBtn:hover {
+  background: #111111;
+  color: #fff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+/* click feedback */
+#addBtn:active {
+  transform: scale(0.97);
+  box-shadow: none;
+}
+
+/* remove ugly focus outline */
+#addBtn:focus {
+  outline: none;
+}
