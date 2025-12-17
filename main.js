@@ -10,9 +10,11 @@ showNote.innerHTML = "";
 
 for (let i = notes.length - 1; i >= 0; i--) {
   const li = document.createElement("li");
-  li.innerHTML = `
+  li.innerHTML = `<br>
+  <span style='font-size:19px;padding:10px;background-color:teal;color:white;border-radius:20px;'>
   ${notes[i]}
-  <button data-index="${i}">x</button>
+  </span><br><br>
+  <button data-index="${i}" style='color:red;'>x</button><br><hr><br>
   `;
   showNote.appendChild(li);
 }
@@ -26,7 +28,11 @@ addBtn.addEventListener("click", function () {
   showNote.innerHTML = "";
   for (let i = notes.length - 1; i >= 0; i--) {
     const li = document.createElement("li");
-    li.innerHTML = `${notes[i]} <button data-index="${i}">x</button>`;
+    li.innerHTML = `<br>
+  <span style='font-size:19px;padding:10px;background-color:teal;color:white;border-radius:20px;'>
+  ${notes[i]}
+  </span><br><br>
+  <button data-index="${i}" style='color:red;'>x</button><br><hr><br>`;
     showNote.appendChild(li);
   }
 });
@@ -39,7 +45,11 @@ showNote.addEventListener("click", (e) => {
   showNote.innerHTML = "";
   for (let i = notes.length - 1; i >= 0; i--) {
     const li = document.createElement("li");
-    li.innerHTML = `${notes[i]} <button data-index="${i}">x</button>`;
+    li.innerHTML = `<br>
+  <span style='font-size:19px;padding:10px;background-color:teal;color:white;border-radius:20px;'>
+  ${notes[i]}
+  </span><br><br>
+  <button data-index="${i}" style='color:red;'>x</button><br><hr><br>`;
     showNote.appendChild(li);
   }
 });

@@ -4,7 +4,7 @@
   font-size: 14px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  box-shadow: 2px 2px 40px 4px rgb(152, 152, 152);
+  box-shadow: 2px 2px 40px 4px rgb(124, 255, 64);
 }
 #noteInput:focus {
   height: 100px;
@@ -26,11 +26,9 @@
   background: #ffffff;
   color: #111;
 
-  border: 2px solid #111;
+  border: 1px solid #111;
   border-radius: 4px;
-
   cursor: pointer;
-
   transition: background 0.2s ease, color 0.2s ease, transform 0.1s ease,
     box-shadow 0.2s ease;
 }
