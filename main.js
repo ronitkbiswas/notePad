@@ -7,9 +7,13 @@ const showNote = document.getElementById("showNote");
 let notes = localStorage.getItem("notes");
 notes ? (notes = JSON.parse(notes)) : (notes = []);
 showNote.innerHTML = "";
+
 for (let i = notes.length - 1; i >= 0; i--) {
   const li = document.createElement("li");
-  li.innerHTML = `${notes[i]} <button data-index="${i}">x</button>`;
+  li.innerHTML = `
+  ${notes[i]}
+  <button data-index="${i}">x</button>
+  `;
   showNote.appendChild(li);
 }
 // add

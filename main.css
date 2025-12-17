@@ -4,7 +4,7 @@
   font-size: 14px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  box-shadow: 2px 2px 40px 4px rgb(68, 242, 65);
+  box-shadow: 2px 2px 40px 4px rgb(152, 152, 152);
 }
 #noteInput:focus {
   height: 100px;
@@ -12,7 +12,7 @@
   font-size: 16px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  box-shadow: 2px 2px 40px 4px rgb(152, 152, 152);
+  box-shadow: 2px 2px 40px 4px rgb(68, 242, 65);
   outline: none;
   /* border: none; */
 }
