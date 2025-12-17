@@ -21,7 +21,10 @@ for (let i = notes.length - 1; i >= 0; i--) {
 // add
 addBtn.addEventListener("click", function () {
   const value = input.value.trim();
-  if (value === "") return;
+  if (value === "") {
+    alert("Please write something before saving!");
+    return;
+  }
   notes.push(value);
   localStorage.setItem("notes", JSON.stringify(notes));
   input.value = "";
@@ -34,6 +37,7 @@ addBtn.addEventListener("click", function () {
   </span><br><br>
   <button data-index="${i}" style='color:red;'>x</button><br><hr><br>`;
     showNote.appendChild(li);
+    alert("Note Saved!");
   }
 });
 // delete
