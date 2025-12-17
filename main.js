@@ -37,7 +37,6 @@ addBtn.addEventListener("click", function () {
   </span><br><br>
   <button data-index="${i}" style='color:red;'>x</button><br><hr><br>`;
     showNote.appendChild(li);
-    alert("Note Saved!");
   }
 });
 // delete

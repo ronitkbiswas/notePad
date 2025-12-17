@@ -1,6 +1,6 @@
 #noteInput {
   height: 100px;
-  width: 400px;
+  width: 300px;
   font-size: 14px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -8,7 +8,7 @@
 }
 #noteInput:focus {
   height: 100px;
-  width: 400px;
+  width: 300px;
   font-size: 16px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -18,7 +18,7 @@
 }
 #addBtn {
   width: 200px;
-  padding: 8px 0;
+  padding: 6px 0;
   font-size: 15px;
   font-weight: 600;
   letter-spacing: 0.5px;
